@@ -103,6 +103,12 @@
 }
 
 /* ==== Responsive ==== */
+@media screen and (max-width:480px) {
+    .about-buttons {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 900px) {
     .about-container {
         flex-direction: column;

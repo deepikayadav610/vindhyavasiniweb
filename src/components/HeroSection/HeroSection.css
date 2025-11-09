@@ -127,7 +127,34 @@
 }
 
 /* ==== Responsive ==== */
-@media (max-width: 900px) {
+@media screen and (max-width:480px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 100px 20px 50px;
+    }
+
+    .hero-buttons {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+
+    .hero-title {
+        font-size: 2.1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:481px) and (max-width: 900px) {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
@@ -151,4 +178,7 @@
     .hero-subtitle {
         font-size: 1.1rem;
     }
+        .hero-buttons {
+            justify-content: center;
+        }
 }
