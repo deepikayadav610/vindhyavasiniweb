@@ -47,6 +47,7 @@
 
 .section-title .gold {
     background: linear-gradient(135deg, #d4af37, #f0c24b);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
