@@ -1,0 +1,39 @@
+/* /* Page Container */
+.App {
+  text-align: center;
+}
+
+/* Section Styling */
+section {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-margin-top: 80px;
+  /* offset for navbar */
+}
+
+/* Headings */
+section h1,
+section h2 {
+  color: #d4af37;
+  /* gold tone */
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Smooth fade animation for scrolling */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
