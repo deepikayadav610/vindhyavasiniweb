@@ -4,22 +4,24 @@ import "./Portfolio.css";
 const Portfolio = () => {
     const projects = [
         {
-            title: "Ahaarsutra App",
-            description: "Recipe sharing platform built with React and MongoDB, allowing users to post and explore culinary creations.",
-            image: "/img/project1.jpg",
-            link: "#",
-        },
+            title: "Ventura Alloy & Steels Pvt. Ltd. Website",
+            description: "Corporate website built for Ventura Alloy & Steels Pvt. Ltd. with a clean, professional UI."
+            ,
+            image: "https://res.cloudinary.com/dgujwx9r9/image/upload/f_auto,q_auto/v1764048075/home-bg_zwi4ic.png",
+            link: "https://venturasteels.com/",
+        }
+        ,
         {
             title: "Pateluxe Website",
             description: "Elegant jewelry brand site with React and Bootstrap, showcasing timeless design and premium craftsmanship.",
-            image: "/img/project2.jpg",
-            link: "#",
+            image: "/img/pateluxe1.png",
+            link: "https://pateluxe.onrender.com/",
         },
         {
             title: "Portfolio Design",
             description: "My personal developer portfolio with a luxurious modern look — built using React + Vite + custom CSS.",
-            image: "/img/project3.jpg",
-            link: "#",
+            image: "/img/image.png",
+            link: "https://d-portfolio-client.onrender.com/",
         },
     ];
 
