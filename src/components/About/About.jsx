@@ -2,44 +2,43 @@ import React from "react";
 import "./About.css";
 
 const About = () => {
-    return (
-        <section className="about" id="about">
-            <div className="about-container">
-                <div className="about-image">
-                    <img src="/img/deepikaydv610.jpeg" alt="Deepika Yadav" />
-                </div>
+  return (
+    <section className="about" id="about">
+      <div className="about-container about-center">
+        <div className="about-content full-width">
+          <h2 className="section-title">
+            About <span className="gold">Me</span>
+          </h2>
 
-                <div className="about-content">
-                    <h2 className="section-title">
-                        About <span className="gold">Me</span>
-                    </h2>
-                    <p className="about-text">
-                        I'm <span className="gold">Deepika Yadav</span>, a passionate{" "}
-                        <strong>Frontend Developer</strong> who loves transforming ideas into
-                        clean, modern, and engaging digital experiences.
-                    </p>
+          <p className="about-text">
+            I’m <span className="gold">Deepika Yadav</span>, a professional
+            website developer specializing in building modern, clean, and
+            high-quality websites for businesses and brands.
+          </p>
 
-                    <p className="about-text">
-                        With a strong foundation in <span className="highlight">React</span>,
-                        <span className="highlight"> JavaScript</span>, and
-                        <span className="highlight"> UI/UX principles</span>, I build interfaces
-                        that are not just beautiful but also intuitive and efficient.
-                    </p>
+          <p className="about-text">
+            I help companies establish a strong online presence through
+            user-friendly design, performance-optimized development, and layouts
+            that are focused on real business goals.
+          </p>
 
-                    <p className="about-text">
-                        I enjoy working on projects that blend <span className="gold">creativity</span> and
-                        <span className="gold"> logic</span> — delivering results that look elegant and perform flawlessly.
-                    </p>
+          <p className="about-text">
+            My approach combines <span className="gold">design clarity</span>{" "}
+            and
+            <span className="gold"> technical precision</span> to deliver
+            websites that are not only visually appealing but also reliable,
+            scalable, and easy to maintain.
+          </p>
 
-                    <div className="about-buttons">
-                        <a href="#contact" className="btn-outline">
-                            Hire Me
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+          <div className="about-buttons">
+            <a href="#contact" className="btn-outline">
+              Hire Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default About;
