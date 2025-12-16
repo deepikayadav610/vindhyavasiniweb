@@ -1,10 +1,10 @@
 .footer {
-  background: #0a0a0a;
-  color: #aaa;
+  background: #5d688a;
+  color: #404a68;
   text-align: center;
   padding: 35px 10px;
   font-size: 0.9rem;
-  border-top: 1px solid rgba(212, 175, 55, 0.15);
+  border-top: 2px solid rgba(237, 115, 241, 0.15);
 }
 
 .footer-content {
@@ -18,11 +18,11 @@
 
 .footer-tagline {
   font-size: 0.85rem;
-  color: #888;
+  color: #f7a5a5;
 }
 
 .footer .gold {
-  background: linear-gradient(135deg, #d4af37, #f0c24b);
+  background: linear-gradient(135deg, #dd7c7c, #f7a5a5);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

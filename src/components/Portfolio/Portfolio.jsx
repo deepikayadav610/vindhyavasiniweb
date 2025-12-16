@@ -15,7 +15,7 @@ const Portfolio = () => {
       title: "Jewelry Brand Website",
       description:
         "An elegant product-focused website built for a jewelry brand, highlighting collections with a modern layout and smooth user experience.",
-      image: "/img/pateluxe1.png",
+      image: "/img/pateluxe2.png",
       link: "https://pateluxe.onrender.com/",
     },
     {
@@ -30,7 +30,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio" id="portfolio">
       <h2 className="section-title">
-        Selected <span className="gold">Projects</span>
+        My <span className="gold">Works</span>
       </h2>
 
       <p className="portfolio-intro">
