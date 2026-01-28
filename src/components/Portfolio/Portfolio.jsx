@@ -32,26 +32,32 @@ const Portfolio = () => {
     },
     {
       title: "Pateluxe Jewelry Brand",
-      tech: [
-        "React",
-        "Bootstrap",
-        "Custom CSS",
-        "EmailJS",
-        "Responsive UI",
-      ],
+      tech: ["React", "Bootstrap", "Custom CSS", "EmailJS", "Responsive UI"],
       description:
         "An elegant jewelry brand website built with React and custom CSS, designed for premium product presentation and smooth UX.",
       image: "/img/pateluxe2.png",
       link: "https://pateluxe.com/",
     },
     {
-      title: "Personal Portfolio Website",
+      title: "Ventura Alloy & Steels Pvt. Ltd.",
       tech: [
+        "MERN Stack",
         "React",
-        "AOS Animations",
-        "Custom CSS",
-        "Responsive Design",
+        "Bootstrap",
+        "EmailJS",
+        "SEO",
+        "Google Search Console",
       ],
+      description:
+        "A professional B2B corporate website developed using the MERN stack. The project explores multiple design approaches with different color themes, layouts, and UI styles—focused on product presentation, lead enquiries, performance, and SEO optimization.",
+      image:
+        "/img/ventura2.png",
+      link: "https://venturasteels.com/",
+      altVersion: "https://ventura-alloy-steels-snzc.onrender.com/",
+    },
+    {
+      title: "Personal Portfolio Website",
+      tech: ["React", "AOS Animations", "Custom CSS", "Responsive Design"],
       description:
         "A modern personal portfolio website showcasing projects, services, and skills with a clean, professional UI.",
       image: "/img/image.png",
@@ -65,11 +71,7 @@ const Portfolio = () => {
         My <span className="gold">Works</span>
       </h2>
 
-      <p
-        className="portfolio-intro"
-        data-aos="fade-up"
-        data-aos-delay="150"
-      >
+      <p className="portfolio-intro" data-aos="fade-up" data-aos-delay="150">
         Real-world projects built from scratch to live deployment — focused on
         performance, usability, and business results.
       </p>
