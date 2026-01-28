@@ -50,8 +50,7 @@ const Portfolio = () => {
       ],
       description:
         "A professional B2B corporate website developed using the MERN stack. The project explores multiple design approaches with different color themes, layouts, and UI styles—focused on product presentation, lead enquiries, performance, and SEO optimization.",
-      image:
-        "/img/ventura2.png",
+      image: "/img/ventura2.png",
       link: "https://venturasteels.com/",
       altVersion: "https://ventura-alloy-steels-snzc.onrender.com/",
     },
@@ -68,7 +67,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio" id="portfolio">
       <h2 className="section-title" data-aos="fade-up">
-        My <span className="gold">Works</span>
+        My <span className="gold">Work</span>
       </h2>
 
       <p className="portfolio-intro" data-aos="fade-up" data-aos-delay="150">
